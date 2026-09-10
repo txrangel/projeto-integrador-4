@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PI IV — Painel do Projeto</title>
+<meta name="description" content="Painel de acompanhamento do Projeto Integrador IV — Univesp">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📊</text></svg>">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="rascunho" id="rascunho" hidden>
+  <div class="envoltorio rascunho-conteudo">
+    <span class="texto"><b id="rascunhoQtd">0</b> <span id="rascunhoPalavra">alterações</span> ainda não publicadas no repositório.</span>
+    <button class="btn primario" id="btnExportar">Exportar progresso.json</button>
+    <button class="btn" id="btnCopiar">Copiar JSON</button>
+    <button class="btn discreto" id="btnDescartar">Descartar</button>
+  </div>
+</div>
+
+<header class="topo">
+  <div class="envoltorio topo-conteudo">
+    <div class="topo-id">
+      <h1>Projeto Integrador IV</h1>
+      <p class="subtitulo" id="subtitulo"></p>
+      <nav class="links" id="links" aria-label="Links úteis"></nav>
+    </div>
+    <div class="metricas" id="metricas"></div>
+  </div>
+</header>
+
+<div class="envoltorio">
+  <nav class="filtros" aria-label="Filtros">
+    <div class="grupo" role="group" aria-label="Filtrar por situação">
+      <button class="chip" data-filtro-status="todos" aria-pressed="true">Todas</button>
+      <button class="chip" data-filtro-status="a_fazer" aria-pressed="false">A fazer</button>
+      <button class="chip" data-filtro-status="em_andamento" aria-pressed="false">Em andamento</button>
+      <button class="chip" data-filtro-status="concluida" aria-pressed="false">Concluídas</button>
+      <button class="chip" data-filtro-status="atrasada" aria-pressed="false">Atrasadas</button>
+    </div>
+    <select id="filtroPessoa" aria-label="Filtrar por integrante"></select>
+  </nav>
+
+  <main id="timeline" aria-live="polite"></main>
+
+  <footer class="rodape-pagina">
+    <p>
+      As 35 atividades vêm de <code>plano.json</code> — espelho do Plano de Ação entregue à faculdade, não editável aqui.
+      O que você marca fica em <code>progresso.json</code>: altere na tela, clique em <b>Exportar</b> e substitua o arquivo no repositório para que o grupo todo veja.
+    </p>
+  </footer>
+</div>
+
+<div class="cortina" id="cortina" hidden></div>
+
+<aside class="painel" id="painel" hidden aria-label="Detalhes da atividade">
+  <div class="painel-cab">
+    <div style="flex:1">
+      <h3 id="painelTitulo"></h3>
+      <p class="meta" id="painelMeta"></p>
+    </div>
+    <button class="btn discreto" id="btnFechar" aria-label="Fechar painel">✕</button>
+  </div>
+  <div class="painel-corpo" id="painelCorpo"></div>
+  <div class="painel-rodape">
+    <button class="btn discreto" id="btnExcluir" hidden>Excluir demanda</button>
+    <button class="btn primario" id="btnConcluir" style="margin-left:auto">Marcar como concluída</button>
+  </div>
+</aside>
+
+<script src="app.js"></script>
+</body>
+</html>

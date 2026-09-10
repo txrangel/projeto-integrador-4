@@ -1,0 +1,444 @@
+{
+  "projeto": {
+    "disciplina": "Projeto Integrador IV",
+    "instituicao": "Univesp",
+    "polo": "São Paulo - SP",
+    "orientador": "Alexandre Roberto Soares",
+    "tema": "Análise de dados públicos relacionados à COVID-19 com aplicação de técnicas de aprendizado de máquina e visualização de dados.",
+    "tituloProvisorio": "Análise de dados da COVID-19 com aplicação de técnicas de aprendizado de máquina",
+    "problema": "Como técnicas de ciência de dados e aprendizado de máquina podem ser aplicadas a um conjunto de dados público sobre COVID-19 para identificar padrões relevantes e apoiar a análise da evolução da doença?",
+    "objetivo": "Analisar um conjunto de dados público relacionado à COVID-19, realizando o tratamento, exploração e visualização das informações, além da aplicação e avaliação de técnicas de aprendizado de máquina para identificação de padrões nos dados e apresentação dos resultados por meio de uma interface de visualização.",
+    "ano": 2026
+  },
+  "links": [
+    {
+      "rotulo": "Repositório no GitHub",
+      "url": "https://github.com/txrangel/projeto-integrador-4"
+    },
+    {
+      "rotulo": "Pasta no Google Drive",
+      "url": "https://drive.google.com/drive/folders/1IcB4bqFMUfOzcj-ZD6NsLya2SsibxBCP"
+    },
+    {
+      "rotulo": "Roteiro de execução",
+      "url": "https://github.com/txrangel/projeto-integrador-4/blob/main/docs/roteiro-execucao.md"
+    },
+    {
+      "rotulo": "Mapa de análises",
+      "url": "https://github.com/txrangel/projeto-integrador-4/blob/main/docs/mapa-de-analises.md"
+    }
+  ],
+  "integrantes": [
+    {
+      "id": "arthur",
+      "nome": "Arthur da Silva Pereira",
+      "curto": "Arthur",
+      "ra": "2222596",
+      "cor": "#e05252"
+    },
+    {
+      "id": "danilo",
+      "nome": "Danilo dos Anjos Santos",
+      "curto": "Danilo",
+      "ra": "23226080",
+      "cor": "#d98324"
+    },
+    {
+      "id": "enzo",
+      "nome": "Enzo Martins Cesario da Silva",
+      "curto": "Enzo",
+      "ra": "23223105",
+      "cor": "#c9a227"
+    },
+    {
+      "id": "guilherme",
+      "nome": "Guilherme Vinicius Busato",
+      "curto": "Guilherme",
+      "ra": "23228114",
+      "cor": "#4f9d5d"
+    },
+    {
+      "id": "joao-vitor",
+      "nome": "João Vitor Rangel Teixeira Domingues",
+      "curto": "João Vitor",
+      "ra": "2215796",
+      "cor": "#3d8bbf"
+    },
+    {
+      "id": "joao-eduardo",
+      "nome": "João Eduardo Damasceno Santos",
+      "curto": "João Eduardo",
+      "ra": "23222065",
+      "cor": "#7b6cc4"
+    },
+    {
+      "id": "larissa",
+      "nome": "Larissa Silva de Souza",
+      "curto": "Larissa",
+      "ra": "23213868",
+      "cor": "#c25b9e"
+    }
+  ],
+  "marcos": [
+    {
+      "id": "m1",
+      "titulo": "Entrega do Plano de Ação",
+      "data": "2026-09-01",
+      "quinzena": 2
+    },
+    {
+      "id": "m2",
+      "titulo": "Entrega do Relatório Parcial",
+      "data": "2026-09-30",
+      "quinzena": 4
+    },
+    {
+      "id": "m3",
+      "titulo": "Entrega do Relatório Final e do Vídeo",
+      "data": "2026-11-06",
+      "quinzena": 7
+    }
+  ],
+  "quinzenas": [
+    {
+      "numero": 1,
+      "objetivo": "Analisar o cenário do projeto e iniciar o levantamento bibliográfico para abordar o problema.",
+      "inicio": "2026-08-10",
+      "fim": "2026-08-23",
+      "atividades": [
+        {
+          "id": "q1a1",
+          "titulo": "Estudar o tema norteador e os requisitos do Projeto Integrador IV",
+          "responsavelPlano": "Grupo",
+          "inicio": "2026-08-10",
+          "fim": "2026-08-14",
+          "observacao": "Compreensão dos requisitos de análise de dados, ML e visualização"
+        },
+        {
+          "id": "q1a2",
+          "titulo": "Levantar possíveis temas e conjuntos de dados públicos para análise",
+          "responsavelPlano": "Grupo",
+          "inicio": "2026-08-10",
+          "fim": "2026-08-18",
+          "observacao": "Avaliação de viabilidade e disponibilidade dos dados"
+        },
+        {
+          "id": "q1a3",
+          "titulo": "Realizar levantamento bibliográfico inicial sobre COVID-19, ciência de dados e aprendizado de máquina",
+          "responsavelPlano": "Grupo",
+          "inicio": "2026-08-14",
+          "fim": "2026-08-23",
+          "observacao": "Base conceitual para definição do projeto"
+        },
+        {
+          "id": "q1a4",
+          "titulo": "Avaliar possíveis problemas de pesquisa relacionados aos dados disponíveis",
+          "responsavelPlano": "Grupo",
+          "inicio": "2026-08-18",
+          "fim": "2026-08-23",
+          "observacao": "Preparação para definição do problema"
+        }
+      ]
+    },
+    {
+      "numero": 2,
+      "objetivo": "Interagir com a comunidade externa, definir o problema e organizar o plano de ação.",
+      "inicio": "2026-08-24",
+      "fim": "2026-09-01",
+      "atividades": [
+        {
+          "id": "q2a1",
+          "titulo": "Selecionar o conjunto de dados público que será utilizado no projeto",
+          "responsavelPlano": "Grupo",
+          "inicio": "2026-08-24",
+          "fim": "2026-08-28",
+          "observacao": "Avaliar estrutura, variáveis, volume e qualidade dos dados"
+        },
+        {
+          "id": "q2a2",
+          "titulo": "Definir tema, problema, objetivo e escopo da análise",
+          "responsavelPlano": "Grupo",
+          "inicio": "2026-08-24",
+          "fim": "2026-08-30",
+          "observacao": "Evitar escopo excessivamente amplo"
+        },
+        {
+          "id": "q2a3",
+          "titulo": "Realizar exploração preliminar da estrutura do dataset",
+          "responsavelPlano": "Grupo",
+          "inicio": "2026-08-28",
+          "fim": "2026-09-01",
+          "observacao": "Verificar colunas, tipos de dados e possibilidades de ML"
+        },
+        {
+          "id": "q2a4",
+          "titulo": "Definir etapas da análise de dados e abordagem inicial de aprendizado de máquina",
+          "responsavelPlano": "Grupo",
+          "inicio": "2026-08-29",
+          "fim": "2026-09-01",
+          "observacao": "Modelo específico poderá ser ajustado após a EDA"
+        },
+        {
+          "id": "q2a5",
+          "titulo": "Elaborar e revisar o Plano de Ação",
+          "responsavelPlano": "Grupo",
+          "inicio": "2026-08-30",
+          "fim": "2026-09-01",
+          "observacao": "Entrega prevista para 01/09",
+          "marco": "m1"
+        }
+      ]
+    },
+    {
+      "numero": 3,
+      "objetivo": "Definir título do trabalho, visitar o local de pesquisa, dar continuidade ao desenvolvimento do trabalho.",
+      "inicio": "2026-09-07",
+      "fim": "2026-09-20",
+      "atividades": [
+        {
+          "id": "q3a1",
+          "titulo": "Importar e estruturar o conjunto de dados em ambiente Python",
+          "responsavelPlano": "Grupo",
+          "inicio": "2026-09-07",
+          "fim": "2026-09-09",
+          "observacao": "Utilização de pandas"
+        },
+        {
+          "id": "q3a2",
+          "titulo": "Avaliar dimensões, tipos de dados, valores ausentes e duplicidades",
+          "responsavelPlano": "Grupo",
+          "inicio": "2026-09-08",
+          "fim": "2026-09-12",
+          "observacao": "Diagnóstico da qualidade dos dados"
+        },
+        {
+          "id": "q3a3",
+          "titulo": "Realizar análise exploratória inicial das variáveis",
+          "responsavelPlano": "Grupo",
+          "inicio": "2026-09-10",
+          "fim": "2026-09-17",
+          "observacao": "Estatísticas descritivas e distribuições"
+        },
+        {
+          "id": "q3a4",
+          "titulo": "Identificar variáveis relevantes para o problema de pesquisa",
+          "responsavelPlano": "Grupo",
+          "inicio": "2026-09-14",
+          "fim": "2026-09-20",
+          "observacao": "Preparação para definição do modelo de ML"
+        },
+        {
+          "id": "q3a5",
+          "titulo": "Refinar título e problema caso necessário após conhecimento dos dados",
+          "responsavelPlano": "Grupo",
+          "inicio": "2026-09-18",
+          "fim": "2026-09-20",
+          "observacao": "Ajustar o projeto às características reais do dataset"
+        }
+      ]
+    },
+    {
+      "numero": 4,
+      "objetivo": "Construir e apresentar a solução inicial (Relatório Parcial); coletar sugestões com a comunidade externa; entregar o Relatório Parcial (conforme modelos disponíveis no AVA).",
+      "inicio": "2026-09-21",
+      "fim": "2026-09-30",
+      "atividades": [
+        {
+          "id": "q4a1",
+          "titulo": "Realizar limpeza e tratamento dos dados",
+          "responsavelPlano": "Grupo",
+          "inicio": "2026-09-21",
+          "fim": "2026-09-24",
+          "observacao": "Nulos, tipos, inconsistências e valores inadequados"
+        },
+        {
+          "id": "q4a2",
+          "titulo": "Elaborar análises estatísticas e visualizações exploratórias",
+          "responsavelPlano": "Grupo",
+          "inicio": "2026-09-22",
+          "fim": "2026-09-27",
+          "observacao": "Gráficos e indicadores relevantes"
+        },
+        {
+          "id": "q4a3",
+          "titulo": "Definir as variáveis de entrada e variável-alvo para ML",
+          "responsavelPlano": "Grupo",
+          "inicio": "2026-09-24",
+          "fim": "2026-09-27",
+          "observacao": "Baseada nos resultados da análise exploratória"
+        },
+        {
+          "id": "q4a4",
+          "titulo": "Preparar versão inicial do conjunto de dados para modelagem",
+          "responsavelPlano": "Grupo",
+          "inicio": "2026-09-25",
+          "fim": "2026-09-29",
+          "observacao": "Seleção e transformação de atributos"
+        },
+        {
+          "id": "q4a5",
+          "titulo": "Elaborar e revisar o Relatório Parcial",
+          "responsavelPlano": "Grupo",
+          "inicio": "2026-09-27",
+          "fim": "2026-09-30",
+          "observacao": "Entrega prevista para 30/09",
+          "marco": "m2"
+        }
+      ]
+    },
+    {
+      "numero": 5,
+      "objetivo": "Construir a solução final, com base nas sugestões do Relatório Parcial.",
+      "inicio": "2026-10-05",
+      "fim": "2026-10-18",
+      "atividades": [
+        {
+          "id": "q5a1",
+          "titulo": "Preparar os dados para treinamento e teste do modelo",
+          "responsavelPlano": "Grupo",
+          "inicio": "2026-10-05",
+          "fim": "2026-10-08",
+          "observacao": "Separação adequada dos conjuntos"
+        },
+        {
+          "id": "q5a2",
+          "titulo": "Selecionar algoritmo(s) de aprendizado de máquina",
+          "responsavelPlano": "Grupo",
+          "inicio": "2026-10-07",
+          "fim": "2026-10-10",
+          "observacao": "Escolha de acordo com o problema definido"
+        },
+        {
+          "id": "q5a3",
+          "titulo": "Treinar modelo inicial",
+          "responsavelPlano": "Grupo",
+          "inicio": "2026-10-09",
+          "fim": "2026-10-13",
+          "observacao": "Registrar parâmetros e resultados"
+        },
+        {
+          "id": "q5a4",
+          "titulo": "Avaliar métricas iniciais do modelo",
+          "responsavelPlano": "Grupo",
+          "inicio": "2026-10-12",
+          "fim": "2026-10-15",
+          "observacao": "Métricas dependerão de classificação ou regressão"
+        },
+        {
+          "id": "q5a5",
+          "titulo": "Realizar ajustes e nova execução do modelo",
+          "responsavelPlano": "Grupo",
+          "inicio": "2026-10-14",
+          "fim": "2026-10-18",
+          "observacao": "Comparar resultados obtidos"
+        }
+      ]
+    },
+    {
+      "numero": 6,
+      "objetivo": "Analisar os resultados, finalizar o protótipo e preparar o Vídeo de apresentação.",
+      "inicio": "2026-10-19",
+      "fim": "2026-11-01",
+      "atividades": [
+        {
+          "id": "q6a1",
+          "titulo": "Analisar e interpretar os resultados do modelo de ML",
+          "responsavelPlano": "Grupo",
+          "inicio": "2026-10-19",
+          "fim": "2026-10-23",
+          "observacao": "Relacionar resultados ao problema proposto"
+        },
+        {
+          "id": "q6a2",
+          "titulo": "Comparar desempenho dos modelos, se houver mais de um",
+          "responsavelPlano": "Grupo",
+          "inicio": "2026-10-20",
+          "fim": "2026-10-24",
+          "observacao": "Selecionar abordagem final"
+        },
+        {
+          "id": "q6a3",
+          "titulo": "Desenvolver interface para visualização dos resultados",
+          "responsavelPlano": "Grupo",
+          "inicio": "2026-10-22",
+          "fim": "2026-10-28",
+          "observacao": "Apresentação de gráficos, indicadores e resultados do ML"
+        },
+        {
+          "id": "q6a4",
+          "titulo": "Integrar análises e resultados à interface",
+          "responsavelPlano": "Grupo",
+          "inicio": "2026-10-25",
+          "fim": "2026-10-30",
+          "observacao": "Construção do protótipo final"
+        },
+        {
+          "id": "q6a5",
+          "titulo": "Iniciar roteiro e organização do vídeo",
+          "responsavelPlano": "Grupo",
+          "inicio": "2026-10-29",
+          "fim": "2026-11-01",
+          "observacao": "Preparação da apresentação final"
+        }
+      ]
+    },
+    {
+      "numero": 7,
+      "objetivo": "Concluir e entregar o Relatório Final e o Vídeo de apresentação.",
+      "inicio": "2026-11-02",
+      "fim": "2026-11-06",
+      "atividades": [
+        {
+          "id": "q7a1",
+          "titulo": "Consolidar os resultados finais das análises",
+          "responsavelPlano": "Grupo",
+          "inicio": "2026-11-02",
+          "fim": "2026-11-04",
+          "observacao": "Revisar resultados estatísticos e de ML"
+        },
+        {
+          "id": "q7a2",
+          "titulo": "Elaborar conclusões e limitações do projeto",
+          "responsavelPlano": "Grupo",
+          "inicio": "2026-11-02",
+          "fim": "2026-11-05",
+          "observacao": "Relacionar conclusões aos objetivos"
+        },
+        {
+          "id": "q7a3",
+          "titulo": "Revisar e finalizar a interface de visualização",
+          "responsavelPlano": "Grupo",
+          "inicio": "2026-11-02",
+          "fim": "2026-11-05",
+          "observacao": "Testes finais"
+        },
+        {
+          "id": "q7a4",
+          "titulo": "Finalizar e revisar o Relatório Final",
+          "responsavelPlano": "Grupo",
+          "inicio": "2026-11-03",
+          "fim": "2026-11-06",
+          "observacao": "Entrega prevista para 06/11",
+          "marco": "m3"
+        },
+        {
+          "id": "q7a5",
+          "titulo": "Gravar e finalizar o vídeo de apresentação",
+          "responsavelPlano": "Grupo",
+          "inicio": "2026-11-03",
+          "fim": "2026-11-06",
+          "observacao": "Apresentação dos objetivos, método e resultados",
+          "marco": "m3"
+        },
+        {
+          "id": "q7a6",
+          "titulo": "Realizar avaliação colaborativa e entrega dos materiais",
+          "responsavelPlano": "Grupo",
+          "inicio": "2026-11-06",
+          "fim": "2026-11-06",
+          "observacao": "Conforme cronograma da disciplina"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "versao": 1,
+  "atualizadoEm": "2026-09-10",
+  "atividades": {
+    "q1a1": {
+      "status": "concluida",
+      "responsaveis": [],
+      "nota": ""
+    },
+    "q1a2": {
+      "status": "concluida",
+      "responsaveis": [],
+      "nota": ""
+    },
+    "q1a3": {
+      "status": "concluida",
+      "responsaveis": [],
+      "nota": ""
+    },
+    "q1a4": {
+      "status": "concluida",
+      "responsaveis": [],
+      "nota": ""
+    },
+    "q2a1": {
+      "status": "concluida",
+      "responsaveis": [],
+      "nota": "Escolhido o caso_full do Brasil.IO: séries diárias por município e por UF, 2020-02-25 a 2022-03-27."
+    },
+    "q2a2": {
+      "status": "concluida",
+      "responsaveis": [],
+      "nota": ""
+    },
+    "q2a3": {
+      "status": "concluida",
+      "responsaveis": [],
+      "nota": ""
+    },
+    "q2a4": {
+      "status": "concluida",
+      "responsaveis": [],
+      "nota": ""
+    },
+    "q2a5": {
+      "status": "concluida",
+      "responsaveis": [],
+      "nota": "Plano de Ação entregue em 01/09."
+    },
+    "q3a1": {
+      "status": "concluida",
+      "responsaveis": [],
+      "nota": "Dataset em dados/. Convertido para Parquet tipado (417 MB -> 28 MB; carga de ~60s para 8s) por src/pi4/ingestao.py."
+    },
+    "q3a2": {
+      "status": "concluida",
+      "responsaveis": [],
+      "nota": "Diagnóstico em notebooks/01_ingestao_qualidade.ipynb. Estrutura íntegra, zero duplicidades. Achado principal: as séries municipais congelam a partir do 3o tri/2021 — em 2022 os municípios capturam só 22% dos casos que as UFs registram, lacuna de 6,3 milhões (21%). Análise municipal recortada em 16/09/2021; previsão sobre a série estadual."
+    },
+    "q3a3": {
+      "status": "em_andamento",
+      "responsaveis": [],
+      "nota": "EDA em notebooks/02_eda.ipynb: 3 ondas (07/2020, 06/2021, 01/2022), pico de 189 mil casos/dia na Ômicron e 3.112 óbitos/dia em abril/2021; ES tem 4,3x a incidência do MA por 100 mil; domingo notifica 55% da média diária. 7 figuras em resultados/figuras/."
+    },
+    "q3a4": {
+      "status": "em_andamento",
+      "responsaveis": [],
+      "nota": "Tabela preliminar em resultados/variaveis_relevantes.csv; consolidar em docs/mapa-de-analises.md até 20/09."
+    }
+  },
+  "demandas": []
+}

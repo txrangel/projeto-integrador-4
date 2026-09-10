@@ -1,0 +1,12 @@
+[project]
+name = "pi4"
+version = "0.1.0"
+description = "Análise de dados públicos da COVID-19 — Projeto Integrador IV, Univesp"
+requires-python = ">=3.10"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]

@@ -1,0 +1,19 @@
+# Dados brutos e derivados (grandes demais para o git)
+dados/*.csv
+dados/*.csv.gz
+dados/*.parquet
+
+# Ambiente Python
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Sistema
+.DS_Store
+*:Zone.Identifier
+
+# Build
+*.egg-info/
+build/
+dist/

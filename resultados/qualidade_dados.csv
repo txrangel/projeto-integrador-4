@@ -1,0 +1,12 @@
+item,valor,interpretacao
+Período coberto,25/02/2020 a 27/03/2022,Da chegada da doença ao Brasil ao fim da onda Ômicron
+Total de registros,3.853.648,Uma linha por local e por dia
+Municípios,5570,Praticamente a totalidade dos 5.570 municípios brasileiros
+Unidades federativas,27,26 estados e o Distrito Federal
+Linhas sem código IBGE,13.646,Todas do pseudo-município 'Importados/Indefinidos': casos que a secretaria ainda não atribuiu a um município. Ficam fora das análises municipais e dentro dos totais estaduais
+Duplicidades reais,0,Nenhuma: a chave local + data é única
+Linhas com is_repeated,1.015.645,"Dias sem boletim novo, com repetição do acumulado anterior. Não é duplicidade"
+new_confirmed negativos,38.638,Correções retroativas das secretarias; tratar com média móvel
+new_deaths negativos,6.261,Mesma origem
+Lacuna entre níveis,6.298.850 casos (21.1%),Casos contados pela UF que nunca aparecem em nenhum município. Explicado pelo congelamento das séries municipais (seção 7)
+Limite do dado municipal,16/09/2021,A partir daí a cobertura municipal cai. Análises por município devem ser recortadas até essa data; a série estadual segue completa

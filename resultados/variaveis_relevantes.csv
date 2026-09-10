@@ -1,0 +1,18 @@
+variavel,uso,justificativa
+new_confirmed,ambas,Série principal de casos; base de toda média móvel
+new_deaths,ambas,Série principal de óbitos
+estimated_population,ambas,Normalização por 100 mil — sem ela nada é comparável
+date,ambas,Eixo temporal; origem das defasagens e do dia da semana
+state,ambas,Agregação estadual e recorte regional
+city_ibge_code,agrupamento,Chave do município
+place_type,ambas,Separa os níveis; evita contagem em dobro
+is_last,qualidade,Detecta o congelamento das séries municipais
+is_repeated,qualidade,Identifica dias sem boletim
+epidemiological_week,previsão,Sazonalidade da notificação
+last_available_confirmed,agrupamento,"Acumulado, base da incidência"
+last_available_deaths,agrupamento,"Acumulado, base da mortalidade e da letalidade"
+estimated_population_2019,descartada,Redundante com estimated_population
+order_for_place,descartada,Índice interno da base
+last_available_date,descartada,Coberta por date e is_repeated
+last_available_confirmed_per_100k_inhabitants,descartada,"Recalculada a partir dos acumulados, para manter o mesmo critério nos dois níveis"
+city,descartada,Identificação apenas; city_ibge_code é a chave
