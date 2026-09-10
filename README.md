@@ -52,8 +52,14 @@ o navegador bloqueia a leitura dos JSONs por segurança.
 
 ### Publicar
 
-**GitHub Pages** — em *Settings → Pages*, escolha a branch `main` e a pasta `/site`.
-O painel fica em `https://<usuario>.github.io/<repositorio>/`.
+**GitHub Pages** — em *Settings → Pages*, defina **Source = GitHub Actions**.
+
+O modo "Deploy from a branch" só permite escolher a raiz ou `/docs`, e o painel mora em
+`site/`; por isso a publicação é feita pelo workflow `.github/workflows/pages.yml`, que
+envia apenas essa pasta. Ele roda a cada push que toque em `site/`, e também pode ser
+disparado à mão em *Actions → Publicar painel → Run workflow*.
+
+O painel fica em `https://txrangel.github.io/projeto-integrador-4/`.
 
 **Vercel** — *Add New → Project*, importe o repositório, defina *Root Directory* como `site`
 e *Framework Preset* como **Other**. Sem comando de build.
